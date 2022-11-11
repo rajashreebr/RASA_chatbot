@@ -1,0 +1,390 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: custom_actions
+  steps:
+  - or:
+    - intent: intent_1
+    
+    - intent: intent_2
+    - intent: intent_3
+    
+    - intent: intent_4
+        
+    - intent: intent_5
+        
+    - intent: intent_6
+        
+    - intent: intent_7
+        
+    - intent: intent_8
+        
+    - intent: intent_9
+        
+    - intent: intent_10
+        
+    - intent: intent_11
+        
+    - intent: intent_12
+        
+    - intent: intent_13
+        
+    - intent: intent_14
+        
+    - intent: intent_15
+        
+    - intent: intent_16
+        
+    - intent: intent_17
+        
+    - intent: intent_18
+        
+    - intent: intent_19
+        
+    - intent: intent_20
+        
+    - intent: intent_21
+        
+    - intent: intent_22
+        
+    - intent: intent_23
+        
+    - intent: intent_24
+        
+    - intent: intent_25
+        
+    - intent: intent_26
+        
+    - intent: intent_27
+        
+    - intent: intent_28
+        
+    - intent: intent_29
+        
+    - intent: intent_30
+        
+    - intent: intent_31
+        
+    - intent: intent_32
+        
+    - intent: intent_33
+        
+    - intent: intent_34
+        
+    - intent: intent_35
+        
+    - intent: intent_36
+        
+    - intent: intent_37
+        
+    - intent: intent_38
+        
+    - intent: intent_39
+        
+    - intent: intent_40
+        
+    - intent: intent_41
+        
+    - intent: intent_42
+        
+    - intent: intent_43
+        
+    - intent: intent_44
+        
+    - intent: intent_45
+        
+    - intent: intent_46
+        
+    - intent: intent_47
+        
+    - intent: intent_48
+        
+    - intent: intent_49
+        
+    - intent: intent_50
+        
+    - intent: intent_51
+        
+    - intent: intent_52
+        
+    - intent: intent_53
+        
+    - intent: intent_54
+        
+    - intent: intent_55
+        
+    - intent: intent_56
+        
+    - intent: intent_57
+        
+    - intent: intent_58
+        
+    - intent: intent_59
+        
+    - intent: intent_60
+        
+    - intent: intent_61
+        
+    - intent: intent_62
+        
+    - intent: intent_63
+        
+    - intent: intent_64
+        
+    - intent: intent_65
+        
+    - intent: intent_66
+        
+    - intent: intent_67
+        
+    - intent: intent_68
+        
+    - intent: intent_69
+        
+    - intent: intent_70
+        
+    - intent: intent_71
+        
+    - intent: intent_72
+        
+    - intent: intent_73
+        
+    - intent: intent_74
+        
+    - intent: intent_75
+        
+    - intent: intent_76
+        
+    - intent: intent_77
+        
+    - intent: intent_78
+        
+    - intent: intent_79
+        
+    - intent: intent_80
+        
+    - intent: intent_81
+        
+    - intent: intent_82
+        
+    - intent: intent_83
+        
+    - intent: intent_84
+        
+    - intent: intent_85
+        
+    - intent: intent_86
+        
+    - intent: intent_87
+        
+    - intent: intent_88
+        
+    - intent: intent_89
+        
+    - intent: intent_90
+        
+    - intent: intent_91
+        
+    - intent: intent_92
+        
+    - intent: intent_93
+        
+    - intent: intent_94
+        
+    - intent: intent_95
+        
+    - intent: intent_96
+        
+    - intent: intent_97
+        
+    - intent: intent_98
+        
+    - intent: intent_99
+        
+    - intent: intent_100
+        
+    - intent: intent_101
+        
+    - intent: intent_102
+        
+    - intent: intent_103
+        
+    - intent: intent_104
+        
+    - intent: intent_105
+        
+    - intent: intent_106
+        
+    - intent: intent_107
+        
+    - intent: intent_108
+        
+    - intent: intent_109
+        
+    - intent: intent_110
+        
+    - intent: intent_111
+        
+    - intent: intent_112
+        
+    - intent: intent_113
+        
+    - intent: intent_114
+        
+    - intent: intent_115
+        
+    - intent: intent_116
+        
+    - intent: intent_117
+        
+    - intent: intent_118
+        
+    - intent: intent_119
+        
+    - intent: intent_120
+        
+    - intent: intent_121
+        
+    - intent: intent_122
+        
+    - intent: intent_123
+        
+    - intent: intent_124
+        
+    - intent: intent_125
+        
+    - intent: intent_126
+        
+    - intent: intent_127
+        
+    - intent: intent_128
+        
+    - intent: intent_129
+        
+    - intent: intent_130
+        
+    - intent: intent_131
+        
+    - intent: intent_132
+        
+    - intent: intent_133
+        
+    - intent: intent_134
+        
+    - intent: intent_135
+        
+    - intent: intent_136
+        
+    - intent: intent_137
+        
+    - intent: intent_138
+        
+    - intent: intent_139
+        
+    - intent: intent_140
+        
+    - intent: intent_141
+        
+    - intent: intent_142
+        
+    - intent: intent_143
+        
+    - intent: intent_144
+        
+    - intent: intent_145
+        
+    - intent: intent_146
+        
+    - intent: intent_147
+        
+    - intent: intent_148
+        
+    - intent: intent_149
+        
+    - intent: intent_150
+        
+    - intent: intent_151
+        
+    - intent: intent_152
+        
+    - intent: intent_153
+        
+    - intent: intent_154
+        
+    - intent: intent_155
+        
+    - intent: intent_156
+        
+    - intent: intent_157
+        
+    - intent: intent_158
+        
+    - intent: intent_159
+        
+    - intent: intent_160
+        
+    - intent: intent_161
+        
+    - intent: intent_162
+        
+    - intent: intent_163
+        
+    - intent: intent_164
+        
+    - intent: intent_165
+        
+    - intent: intent_166
+        
+    - intent: intent_167
+        
+    - intent: intent_168
+        
+    - intent: intent_169
+        
+    - intent: intent_170
+        
+    - intent: intent_171
+        
+    - intent: intent_172
+        
+    - intent: intent_173
+        
+    - intent: intent_174
+        
+    - intent: intent_175
+        
+    - intent: intent_176
+        
+    - intent: intent_177
+        
+    - intent: intent_178
+  - action: action_faq 
+      

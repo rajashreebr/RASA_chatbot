@@ -1,0 +1,179 @@
+,Question,Answer,intent
+1,Was Alessandro Volta a professor of chemistry?,No,intent_1
+3,Did Alessandro Volta invent the remotely operated pistol?,Yes,intent_2
+5,Was Alessandro Volta taught in public schools?,Yes,intent_3
+13,Did Alessandro Volta die and retire in the same place?,Yes,intent_4
+40,Is Voltas legacy celebrated by a Temple on the shore of Lake Como in the center of the town?,Yes,intent_5
+41,Is the battery made by Volta credited as the first electrochemical cell?,Yes,intent_6
+44,Was Avogadro a  professor at the University of Turin?,Yes,intent_7
+46,Was he a member of the Royal Superior Council on Public Instruction?,Yes,intent_8
+48,Is Avogadro's number used to compute the results of chemical reactions?,Yes,intent_9
+62,Was Amedeo Avogadro was born in Turin?,Yes,intent_10
+64,Is Avogadro hailed as a founder of the atomic-molecular theory?,Yes,intent_11
+66,Did Johann Josef Loschmidt first calculate the value of Avogadro's number?,Yes,intent_12
+76,Is Amedeo Avogadro Italian?,Yes,intent_13
+78,Did he become a professor before the revolutionary movements against the king of Sardinia?,Yes,intent_14
+122,Is Antwerp a city?,Yes,intent_15
+124,Is Antwerp a municipality?,Yes,intent_16
+126,Is Antwerp in Belgium?,Yes,intent_17
+134,Why is Antwerp important to fashion?,Yes,intent_18
+140,Is Arabic a Central Semitic language?,Yes,intent_19
+142,Was Arabic a major vehicle of culture in Europe?,Yes,intent_20
+144,Is Arabic classified alongside Semitic languages?,Yes,intent_21
+162,Is Hassaniya Arabic spoken in Mauritania?,Yes,intent_22
+231,"Was Pascal's earliest work in the natural and applied sciences where he made important contributions to the construction of mechanical calculators, the study of fluids, and clarified the concepts of pressure and vacuum by generalizing the work of Evangelista Torricelli?",Yes,intent_23
+232,Did Pascal also write in defense of the scientific method?,Yes,intent_24
+283,Did the family move to Paris as well as there Coulomb studied at the prestigious Collge des Quatre-Nations?,Yes,intent_25
+285,"Is he best known for developing Coulomb's law, the definition of the electrostatic force of attraction and repulsion?",Yes,intent_26
+286,"The SI unit of charge, the coulomb, was named after him?",Yes,intent_27
+287,"Did Coulomb die in AngoulÃªme, France, to a well-to-do family?",No,intent_28
+290,Is fifty percent or more of Korean vocabulary of Chinese origin?,Yes,intent_29
+292,"Does ""ketchup"" come from the Minnan pronunciation of &#39853;&#27713; (koe-tsiap)?",Yes,intent_30
+384,Is the dragonfly associated with late summer as well as early autumn?,Yes,intent_31
+424,Are drums usually played by the hands?,Yes,intent_32
+427,"Have other techniques been used to cause drums to make sound, such as the ``Thumb roll''?",Yes,intent_33
+428,Is the electric eel a true eel?,No,intent_34
+430,Are most eels predators?,Yes,intent_35
+432,Is eel blood toxic to humans?,Yes,intent_36
+444,Do all eels live in fresh water?,No,intent_37
+446,Is Finnish an official language of the European Union?,Yes,intent_38
+448,Are the dialects of Finnish divided into two groups?,Yes,intent_39
+450,Is Finnish threatened by English?,No,intent_40
+481,Has the flute been dated to prehistoric times?,Yes,intent_41
+483,Was the pan flute used in Greece?,Yes,intent_42
+485,Can a flute be played with several different air sources?,Yes,intent_43
+499,Has the dragon historically served as China's national emblem?,Yes,intent_44
+501,Do pandas hibernate?,No,intent_45
+503,Do giant pandas attack humans?,Yes,intent_46
+517,Is the Giant Panda a mammal?,Yes,intent_47
+519,Is the Giant Panda a terrestrial animal?,Yes,intent_48
+521,Is the Giant Panda an endangered species?,Yes,intent_49
+528,Is the Giant Panda a carnivore?,Yes,intent_50
+533,Is an acoustic guitar dependent on an external device?,No,intent_51
+535,Is the battente smaller than a classical guitar?,Yes,intent_52
+537,Is the flamenco guitar similar to the classical guitar?,Yes,intent_53
+551,Is a guitar an instrument?,Yes,intent_54
+553,Can guitars be divided into two broad categories?,Yes,intent_55
+555,Do picks come in many shapes and sizes?,Yes,intent_56
+569,Did Becquerel study science at the École des Ponts et Chaussées?,Yes,intent_57
+570,Did he become chief engineer in the Department of Bridges and Highways in 1892?,No,intent_58
+572,Was Becquerel a French physicist?,Yes,intent_59
+649,Is Jakarta a city,Yes,intent_60
+651,Is the most important river the Ciliwung River,Yes,intent_61
+657,Do mikrolets travel on the main roads?,No,intent_62
+661,Did the economy improve in Jakarta in 2007,Yes,intent_63
+666,Did Suharto resign as president?,Yes,intent_64
+667,Was the Jakarta area part of the fourth century Indianized kingdom of Tarumanagara?,Yes,intent_65
+668,Do other landmarks include the Istiqlal Mosque as well as Jakarta Cathedral?,Yes,intent_66
+672,Is James Watt French?,No,intent_67
+674,Did James Watt improve an engine?,Yes,intent_68
+676,Is there a statue of Watt in the White House?,No,intent_69
+715,Is Korean the official language of Korea?,Yes,intent_70
+716,Is Korean the official language of Korea?,Yes,intent_71
+717,"Is the word ""Korean"" derived from Goryeo?",Yes,intent_72
+719,Are all dialects of Korean similar to each other?,Yes,intent_73
+720,Are all dialects of Korean similar to each other?,Yes,intent_74
+754,Is it also one of the two official languages in the Yanbian Korean Autonomous Prefecture in China?,Yes,intent_75
+755,Is Kuala Lumpur the capitol of Malaysia? disfluent,Yes,intent_76
+757,Is Kuala Lumpur in the Selangor state?,Yes,intent_77
+773,Is it a host city for the Formula One World Championship?,Yes,intent_78
+775,is the central market located in the proximity of the pertama complex?,No,intent_79
+777,is it home to the parliament of malaysia?,Yes,intent_80
+785,Is there a more industrialized region in malaysia?,No,intent_81
+798,"Has Leonardo often been described as the archetype of the Renaissance man, a man whose unquenchable curiosity was equaled only by his powers of invention?",Yes,intent_82
+800,"According to art historian Helen Gardner, were the scope and depth of his interests without precedent and ``his mind and personality seem to us superhuman, the man himself mysterious and remote''?",Yes,intent_83
+801,Are lobsters invertebrates?,Yes,intent_84
+802,Are lobsters invertebrates?,Yes,intent_85
+803,Are lobsters kosher?,No,intent_86
+804,Are lobsters kosher?,No,intent_87
+806,Do lobsters have blue blood?,Yes,intent_88
+814,Do lobsters feel pain?,Yes,intent_89
+816,Did the Moche people worship lobsters?,Yes,intent_90
+819,Were the recitations of the Ancient Greeks accompanied by lyre playing?,Yes,intent_91
+821,Does a classical lyre have a hollow body?,Yes,intent_92
+823,Is the lyre a stringed musical instrument?,Yes,intent_93
+831,Is the foot pedal framework for a piano called a lyre?,Yes,intent_94
+835,Does a standard piano have fewer strings than a harp?,No,intent_95
+837,Is Malay the official language of Iraq?,No,intent_96
+839,Is Malay an agglutinative language?,Yes,intent_97
+847,Are there many words in Malay that use natural gender?,No,intent_98
+850,Is Malay in the Austronesian family of languages?,Yes,intent_99
+852,Is Malay an agglutinative language?,Yes,intent_100
+854,Is there one negation word in Malay?,No,intent_101
+862,Do linguists consider Malay to be a single language?,No,intent_102
+864,Can speakers of modern Malay understand Old Malay?,No,intent_103
+870,Was Malay language written using Pallava?,Yes,intent_104
+873,Is Malay spoken as local dialect of ethnic Malays?,Yes,intent_105
+876,Was it derived from Latin?,Yes,intent_106
+877,Is Melbourne the capital and most populous city in the state of Victoria?,Yes,intent_107
+879,Is Melbourne home to Australia's busiest seaport?,Yes,intent_108
+881,Does Melbourne have a large international student community?,Yes,intent_109
+912,Is faraday best known for his work with kinematics?,No,intent_110
+914,was he active in the area now called environmental science?,Yes,intent_111
+916,did he discover benzene?,Yes,intent_112
+923,did he advise the british government on the production of chemical weapons for use in the crimean war?,No,intent_113
+925,did faraday have strong maritime interests?,Yes,intent_114
+927,does the charge reside on the interior of a charged conductor?,No,intent_115
+968,Does Montreal contain the largest church in Canada?,Yes,intent_116
+972,Is Nairobi the capital of Kenya?,Yes,intent_117
+974,Was Nairobi founded in 1899?,Yes,intent_118
+976,Is the current estimated population of Nairobi about 6 milion?,No,intent_119
+999,Did Nikola Tesla die alone?,Yes,intent_120
+1001,Was Nikola Tesla close friends with Mark Twain?,Yes,intent_121
+1003,Did Nikola Tesla use a technique called picture thinking?,Yes,intent_122
+1011,Was Nikola Tesla's mother illiterate?,Yes,intent_123
+1015,Was Nikola Tesla a vegetarian?,Yes,intent_124
+1016,"Is there a monument to Tesla at Niagara Falls, New York?",Yes,intent_125
+1018,Was Tesla an American citizen?,Yes,intent_126
+1020,Was Tesla on the cover of Time magazine?,Yes,intent_127
+1028,Did Tesla win the Nobel Prize?,No,intent_128
+1030,Was Tesla rich at the time of his death?,No,intent_129
+1038,Did Norman Rockwell spend the winter months as artist-in-residence at Otis College of Art as well as Design?,Yes,intent_130
+1063,Do males use a specialized arm called a hectocotylus to insert spermatophores?,Yes,intent_131
+1066,Is octopus a common food in Mediterranean cuisine as well as Portuguese cuisine?,Yes,intent_132
+1067,Is the collective form octopus usually reserved for animals consumed for food?,Yes,intent_133
+1068,"Has an octopus a hard beak, with its mouth at the center point of the arms?",Yes,intent_134
+1080,Are pianos used in Western music?,Yes,intent_135
+1082,"Are ""upright pianos"" called ""vertical pianos""?",Yes,intent_136
+1084,Did Bartolomeo Cristofori invent the modern piano?,Yes,intent_137
+1121,Is Portuguese an official language of Andorra?,No,intent_138
+1123,Does the Portuguese language have its roots in the Latin language?,Yes,intent_139
+1125,Does Portuguese contain words from the Arabic language?,Yes,intent_140
+1167,Is it often called just Petersburg (-RRB- and is informally known as Piter (-RRB-?,Yes,intent_141
+1170,Is the standard of living in San Franciscio high?,Yes,intent_142
+1172,Does San Francisco have a high percentage of gay and lesbian individuals?,Yes,intent_143
+1174,Is San Franscico a popular tourist destination?,Yes,intent_144
+1184,Are more residents employed by small businesses than in 1977?,No,intent_145
+1188,Was Mission Bay campus opened in 2003,Yes,intent_146
+1191,Is Golden Gate Park the largest city park,Yes,intent_147
+1198,Is Crissy field an airfield,Yes,intent_148
+1200,Does the de Young museum house the Asian Art Museum,No,intent_149
+1230,Is Swedish a descendant of Old Norse?,Yes,intent_150
+1232,Does Swedish use the perfect participle to form the present perfect tense?,No,intent_151
+1244,Is Taipei in a valley?,Yes,intent_152
+1245,Was Taipei founded in the 18th century?,Yes,intent_153
+1246,Was Taipei founded in the 18th century?,Yes,intent_154
+1247,Is the National Palace Museum in Taipei?,Yes,intent_155
+1248,Is the National Palace Museum in Taipei?,Yes,intent_156
+1261,Is the trumpet the musical instrument with the highest register in the brass family?,Yes,intent_157
+1262,Is the trumpet the musical instrument with the highest register in the brass family?,Yes,intent_158
+1263,Is a trumpet played by blowing air through closed lips?,Yes,intent_159
+1265,Is the most common type of trumpet the B trumpet?,Yes,intent_160
+1298,Do many players use a smaller mouthpiece on the piccolo trumpet?,Yes,intent_161
+1302,"Are they constructed of brass tubing bent twice into an oblong shape, and are played by blowing air through closed lips, producing a ``buzzing'' sound which starts a standing wave vibration in the air column inside the trumpet?",Yes,intent_162
+1305,Was the Ottoman script replaced with a variant of the Latin alphabet?,Yes,intent_163
+1307,Is there a definite article in Turkish language?,No,intent_164
+1309,Is it possible to alter the word order to stress the importance of a certain phrase?,Yes,intent_165
+1339,Is Vietnamese the mother tongue of the Vietnamese people?,Yes,intent_166
+1341,Is Vietnamese the official administrative language of Vietnam?,Yes,intent_167
+1347,Have consonant clusters been lost?,Yes,intent_168
+1377,"Is today, he widely regarded as one of history's greatest painters and an important contributor to the foundations of modern art?",Yes,intent_169
+1378,Does a violin have four strings?,Yes,intent_170
+1379,Does a violin have four strings?,Yes,intent_171
+1380,Is the violin supported by the left shoulder?,Yes,intent_172
+1382,Is the violin shaped like an hourglass?,Yes,intent_173
+1394,Is the violin a percussion instrument?,Yes,intent_174
+1401,Is the tuning G-D-A-E used for most violin music?,Yes,intent_175
+1441,Do the different species of zebras interbreed?,No,intent_176
+1443,Do zebras sleep standing up?,Yes,intent_177
+1445,Have plains zebras been crossed with mountain zebras?,Yes,intent_178

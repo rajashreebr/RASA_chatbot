@@ -1,0 +1,804 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: intent_0
+  examples: |
+    - Was Alessandro Volta a professor of chemistry?
+    
+- intent: intent_1
+  examples: |
+    - Did Alessandro Volta invent the remotely operated pistol?
+    
+- intent: intent_2
+  examples: |
+    - Was Alessandro Volta taught in public schools?
+    
+- intent: intent_3
+  examples: |
+    - Did Alessandro Volta die and retire in the same place?
+    
+- intent: intent_4
+  examples: |
+    - Is Voltas legacy celebrated by a Temple on the shore of Lake Como in the center of the town?
+    
+- intent: intent_5
+  examples: |
+    - Is the battery made by Volta credited as the first electrochemical cell?
+    
+- intent: intent_6
+  examples: |
+    - Was Avogadro a  professor at the University of Turin?
+    
+- intent: intent_7
+  examples: |
+    - Was he a member of the Royal Superior Council on Public Instruction?
+    
+- intent: intent_8
+  examples: |
+    - Is Avogadro's number used to compute the results of chemical reactions?
+    
+- intent: intent_9
+  examples: |
+    - Was Amedeo Avogadro was born in Turin?
+    
+- intent: intent_10
+  examples: |
+    - Is Avogadro hailed as a founder of the atomic-molecular theory?
+    
+- intent: intent_11
+  examples: |
+    - Did Johann Josef Loschmidt first calculate the value of Avogadro's number?
+    
+- intent: intent_12
+  examples: |
+    - Is Amedeo Avogadro Italian?
+    
+- intent: intent_13
+  examples: |
+    - Did he become a professor before the revolutionary movements against the king of Sardinia?
+    
+- intent: intent_14
+  examples: |
+    - Is Antwerp a city?
+    
+- intent: intent_15
+  examples: |
+    - Is Antwerp a municipality?
+    
+- intent: intent_16
+  examples: |
+    - Is Antwerp in Belgium?
+    
+- intent: intent_17
+  examples: |
+    - Why is Antwerp important to fashion?
+    
+- intent: intent_18
+  examples: |
+    - Is Arabic a Central Semitic language?
+    
+- intent: intent_19
+  examples: |
+    - Was Arabic a major vehicle of culture in Europe?
+    
+- intent: intent_20
+  examples: |
+    - Is Arabic classified alongside Semitic languages?
+    
+- intent: intent_21
+  examples: |
+    - Is Hassaniya Arabic spoken in Mauritania?
+    
+- intent: intent_22
+  examples: |
+    - Was Pascal's earliest work in the natural and applied sciences where he made important contributions to the construction of mechanical calculators, the study of fluids, and clarified the concepts of pressure and vacuum by generalizing the work of Evangelista Torricelli?
+    
+- intent: intent_23
+  examples: |
+    - Did Pascal also write in defense of the scientific method?
+    
+- intent: intent_24
+  examples: |
+    - Did the family move to Paris as well as there Coulomb studied at the prestigious Collge des Quatre-Nations?
+    
+- intent: intent_25
+  examples: |
+    - Is he best known for developing Coulomb's law, the definition of the electrostatic force of attraction and repulsion?
+    
+- intent: intent_26
+  examples: |
+    - The SI unit of charge, the coulomb, was named after him?
+    
+- intent: intent_27
+  examples: |
+    - Did Coulomb die in AngoulÃªme, France, to a well-to-do family?
+    
+- intent: intent_28
+  examples: |
+    - Is fifty percent or more of Korean vocabulary of Chinese origin?
+    
+- intent: intent_29
+  examples: |
+    - Does "ketchup" come from the Minnan pronunciation of &#39853;&#27713; (koe-tsiap)?
+    
+- intent: intent_30
+  examples: |
+    - Is the dragonfly associated with late summer as well as early autumn?
+    
+- intent: intent_31
+  examples: |
+    - Are drums usually played by the hands?
+    
+- intent: intent_32
+  examples: |
+    - Have other techniques been used to cause drums to make sound, such as the ``Thumb roll''?
+    
+- intent: intent_33
+  examples: |
+    - Is the electric eel a true eel?
+    
+- intent: intent_34
+  examples: |
+    - Are most eels predators?
+    
+- intent: intent_35
+  examples: |
+    - Is eel blood toxic to humans?
+    
+- intent: intent_36
+  examples: |
+    - Do all eels live in fresh water?
+    
+- intent: intent_37
+  examples: |
+    - Is Finnish an official language of the European Union?
+    
+- intent: intent_38
+  examples: |
+    - Are the dialects of Finnish divided into two groups?
+    
+- intent: intent_39
+  examples: |
+    - Is Finnish threatened by English?
+    
+- intent: intent_40
+  examples: |
+    - Has the flute been dated to prehistoric times?
+    
+- intent: intent_41
+  examples: |
+    - Was the pan flute used in Greece?
+    
+- intent: intent_42
+  examples: |
+    - Can a flute be played with several different air sources?
+    
+- intent: intent_43
+  examples: |
+    - Has the dragon historically served as China's national emblem?
+    
+- intent: intent_44
+  examples: |
+    - Do pandas hibernate?
+    
+- intent: intent_45
+  examples: |
+    - Do giant pandas attack humans?
+    
+- intent: intent_46
+  examples: |
+    - Is the Giant Panda a mammal?
+    
+- intent: intent_47
+  examples: |
+    - Is the Giant Panda a terrestrial animal?
+    
+- intent: intent_48
+  examples: |
+    - Is the Giant Panda an endangered species?
+    
+- intent: intent_49
+  examples: |
+    - Is the Giant Panda a carnivore?
+    
+- intent: intent_50
+  examples: |
+    - Is an acoustic guitar dependent on an external device?
+    
+- intent: intent_51
+  examples: |
+    - Is the battente smaller than a classical guitar?
+    
+- intent: intent_52
+  examples: |
+    - Is the flamenco guitar similar to the classical guitar?
+    
+- intent: intent_53
+  examples: |
+    - Is a guitar an instrument?
+    
+- intent: intent_54
+  examples: |
+    - Can guitars be divided into two broad categories?
+    
+- intent: intent_55
+  examples: |
+    - Do picks come in many shapes and sizes?
+    
+- intent: intent_56
+  examples: |
+    - Did Becquerel study science at the École des Ponts et Chaussées?
+    
+- intent: intent_57
+  examples: |
+    - Did he become chief engineer in the Department of Bridges and Highways in 1892?
+    
+- intent: intent_58
+  examples: |
+    - Was Becquerel a French physicist?
+    
+- intent: intent_59
+  examples: |
+    - Is Jakarta a city
+    
+- intent: intent_60
+  examples: |
+    - Is the most important river the Ciliwung River
+    
+- intent: intent_61
+  examples: |
+    - Do mikrolets travel on the main roads?
+    
+- intent: intent_62
+  examples: |
+    - Did the economy improve in Jakarta in 2007
+    
+- intent: intent_63
+  examples: |
+    - Did Suharto resign as president?
+    
+- intent: intent_64
+  examples: |
+    - Was the Jakarta area part of the fourth century Indianized kingdom of Tarumanagara?
+    
+- intent: intent_65
+  examples: |
+    - Do other landmarks include the Istiqlal Mosque as well as Jakarta Cathedral?
+    
+- intent: intent_66
+  examples: |
+    - Is James Watt French?
+    
+- intent: intent_67
+  examples: |
+    - Did James Watt improve an engine?
+    
+- intent: intent_68
+  examples: |
+    - Is there a statue of Watt in the White House?
+    
+- intent: intent_69
+  examples: |
+    - Is Korean the official language of Korea?
+    
+- intent: intent_70
+  examples: |
+    - Is Korean the official language of Korea?
+    
+- intent: intent_71
+  examples: |
+    - Is the word "Korean" derived from Goryeo?
+    
+- intent: intent_72
+  examples: |
+    - Are all dialects of Korean similar to each other?
+    
+- intent: intent_73
+  examples: |
+    - Are all dialects of Korean similar to each other?
+    
+- intent: intent_74
+  examples: |
+    - Is it also one of the two official languages in the Yanbian Korean Autonomous Prefecture in China?
+    
+- intent: intent_75
+  examples: |
+    - Is Kuala Lumpur the capitol of Malaysia? disfluent
+    
+- intent: intent_76
+  examples: |
+    - Is Kuala Lumpur in the Selangor state?
+    
+- intent: intent_77
+  examples: |
+    - Is it a host city for the Formula One World Championship?
+    
+- intent: intent_78
+  examples: |
+    - is the central market located in the proximity of the pertama complex?
+    
+- intent: intent_79
+  examples: |
+    - is it home to the parliament of malaysia?
+    
+- intent: intent_80
+  examples: |
+    - Is there a more industrialized region in malaysia?
+    
+- intent: intent_81
+  examples: |
+    - Has Leonardo often been described as the archetype of the Renaissance man, a man whose unquenchable curiosity was equaled only by his powers of invention?
+    
+- intent: intent_82
+  examples: |
+    - According to art historian Helen Gardner, were the scope and depth of his interests without precedent and ``his mind and personality seem to us superhuman, the man himself mysterious and remote''?
+    
+- intent: intent_83
+  examples: |
+    - Are lobsters invertebrates?
+    
+- intent: intent_84
+  examples: |
+    - Are lobsters invertebrates?
+    
+- intent: intent_85
+  examples: |
+    - Are lobsters kosher?
+    
+- intent: intent_86
+  examples: |
+    - Are lobsters kosher?
+    
+- intent: intent_87
+  examples: |
+    - Do lobsters have blue blood?
+    
+- intent: intent_88
+  examples: |
+    - Do lobsters feel pain?
+    
+- intent: intent_89
+  examples: |
+    - Did the Moche people worship lobsters?
+    
+- intent: intent_90
+  examples: |
+    - Were the recitations of the Ancient Greeks accompanied by lyre playing?
+    
+- intent: intent_91
+  examples: |
+    - Does a classical lyre have a hollow body?
+    
+- intent: intent_92
+  examples: |
+    - Is the lyre a stringed musical instrument?
+    
+- intent: intent_93
+  examples: |
+    - Is the foot pedal framework for a piano called a lyre?
+    
+- intent: intent_94
+  examples: |
+    - Does a standard piano have fewer strings than a harp?
+    
+- intent: intent_95
+  examples: |
+    - Is Malay the official language of Iraq?
+    
+- intent: intent_96
+  examples: |
+    - Is Malay an agglutinative language?
+    
+- intent: intent_97
+  examples: |
+    - Are there many words in Malay that use natural gender?
+    
+- intent: intent_98
+  examples: |
+    - Is Malay in the Austronesian family of languages?
+    
+- intent: intent_99
+  examples: |
+    - Is Malay an agglutinative language?
+    
+- intent: intent_100
+  examples: |
+    - Is there one negation word in Malay?
+    
+- intent: intent_101
+  examples: |
+    - Do linguists consider Malay to be a single language?
+    
+- intent: intent_102
+  examples: |
+    - Can speakers of modern Malay understand Old Malay?
+    
+- intent: intent_103
+  examples: |
+    - Was Malay language written using Pallava?
+    
+- intent: intent_104
+  examples: |
+    - Is Malay spoken as local dialect of ethnic Malays?
+    
+- intent: intent_105
+  examples: |
+    - Was it derived from Latin?
+    
+- intent: intent_106
+  examples: |
+    - Is Melbourne the capital and most populous city in the state of Victoria?
+    
+- intent: intent_107
+  examples: |
+    - Is Melbourne home to Australia's busiest seaport?
+    
+- intent: intent_108
+  examples: |
+    - Does Melbourne have a large international student community?
+    
+- intent: intent_109
+  examples: |
+    - Is faraday best known for his work with kinematics?
+    
+- intent: intent_110
+  examples: |
+    - was he active in the area now called environmental science?
+    
+- intent: intent_111
+  examples: |
+    - did he discover benzene?
+    
+- intent: intent_112
+  examples: |
+    - did he advise the british government on the production of chemical weapons for use in the crimean war?
+    
+- intent: intent_113
+  examples: |
+    - did faraday have strong maritime interests?
+    
+- intent: intent_114
+  examples: |
+    - does the charge reside on the interior of a charged conductor?
+    
+- intent: intent_115
+  examples: |
+    - Does Montreal contain the largest church in Canada?
+    
+- intent: intent_116
+  examples: |
+    - Is Nairobi the capital of Kenya?
+    
+- intent: intent_117
+  examples: |
+    - Was Nairobi founded in 1899?
+    
+- intent: intent_118
+  examples: |
+    - Is the current estimated population of Nairobi about 6 milion?
+    
+- intent: intent_119
+  examples: |
+    - Did Nikola Tesla die alone?
+    
+- intent: intent_120
+  examples: |
+    - Was Nikola Tesla close friends with Mark Twain?
+    
+- intent: intent_121
+  examples: |
+    - Did Nikola Tesla use a technique called picture thinking?
+    
+- intent: intent_122
+  examples: |
+    - Was Nikola Tesla's mother illiterate?
+    
+- intent: intent_123
+  examples: |
+    - Was Nikola Tesla a vegetarian?
+    
+- intent: intent_124
+  examples: |
+    - Is there a monument to Tesla at Niagara Falls, New York?
+    
+- intent: intent_125
+  examples: |
+    - Was Tesla an American citizen?
+    
+- intent: intent_126
+  examples: |
+    - Was Tesla on the cover of Time magazine?
+    
+- intent: intent_127
+  examples: |
+    - Did Tesla win the Nobel Prize?
+    
+- intent: intent_128
+  examples: |
+    - Was Tesla rich at the time of his death?
+    
+- intent: intent_129
+  examples: |
+    - Did Norman Rockwell spend the winter months as artist-in-residence at Otis College of Art as well as Design?
+    
+- intent: intent_130
+  examples: |
+    - Do males use a specialized arm called a hectocotylus to insert spermatophores?
+    
+- intent: intent_131
+  examples: |
+    - Is octopus a common food in Mediterranean cuisine as well as Portuguese cuisine?
+    
+- intent: intent_132
+  examples: |
+    - Is the collective form octopus usually reserved for animals consumed for food?
+    
+- intent: intent_133
+  examples: |
+    - Has an octopus a hard beak, with its mouth at the center point of the arms?
+    
+- intent: intent_134
+  examples: |
+    - Are pianos used in Western music?
+    
+- intent: intent_135
+  examples: |
+    - Are "upright pianos" called "vertical pianos"?
+    
+- intent: intent_136
+  examples: |
+    - Did Bartolomeo Cristofori invent the modern piano?
+    
+- intent: intent_137
+  examples: |
+    - Is Portuguese an official language of Andorra?
+    
+- intent: intent_138
+  examples: |
+    - Does the Portuguese language have its roots in the Latin language?
+    
+- intent: intent_139
+  examples: |
+    - Does Portuguese contain words from the Arabic language?
+    
+- intent: intent_140
+  examples: |
+    - Is it often called just Petersburg (-RRB- and is informally known as Piter (-RRB-?
+    
+- intent: intent_141
+  examples: |
+    - Is the standard of living in San Franciscio high?
+    
+- intent: intent_142
+  examples: |
+    - Does San Francisco have a high percentage of gay and lesbian individuals?
+    
+- intent: intent_143
+  examples: |
+    - Is San Franscico a popular tourist destination?
+    
+- intent: intent_144
+  examples: |
+    - Are more residents employed by small businesses than in 1977?
+    
+- intent: intent_145
+  examples: |
+    - Was Mission Bay campus opened in 2003
+    
+- intent: intent_146
+  examples: |
+    - Is Golden Gate Park the largest city park
+    
+- intent: intent_147
+  examples: |
+    - Is Crissy field an airfield
+    
+- intent: intent_148
+  examples: |
+    - Does the de Young museum house the Asian Art Museum
+    
+- intent: intent_149
+  examples: |
+    - Is Swedish a descendant of Old Norse?
+    
+- intent: intent_150
+  examples: |
+    - Does Swedish use the perfect participle to form the present perfect tense?
+    
+- intent: intent_151
+  examples: |
+    - Is Taipei in a valley?
+    
+- intent: intent_152
+  examples: |
+    - Was Taipei founded in the 18th century?
+    
+- intent: intent_153
+  examples: |
+    - Was Taipei founded in the 18th century?
+    
+- intent: intent_154
+  examples: |
+    - Is the National Palace Museum in Taipei?
+    
+- intent: intent_155
+  examples: |
+    - Is the National Palace Museum in Taipei?
+    
+- intent: intent_156
+  examples: |
+    - Is the trumpet the musical instrument with the highest register in the brass family?
+    
+- intent: intent_157
+  examples: |
+    - Is the trumpet the musical instrument with the highest register in the brass family?
+    
+- intent: intent_158
+  examples: |
+    - Is a trumpet played by blowing air through closed lips?
+    
+- intent: intent_159
+  examples: |
+    - Is the most common type of trumpet the B trumpet?
+    
+- intent: intent_160
+  examples: |
+    - Do many players use a smaller mouthpiece on the piccolo trumpet?
+    
+- intent: intent_161
+  examples: |
+    - Are they constructed of brass tubing bent twice into an oblong shape, and are played by blowing air through closed lips, producing a ``buzzing'' sound which starts a standing wave vibration in the air column inside the trumpet?
+    
+- intent: intent_162
+  examples: |
+    - Was the Ottoman script replaced with a variant of the Latin alphabet?
+    
+- intent: intent_163
+  examples: |
+    - Is there a definite article in Turkish language?
+    
+- intent: intent_164
+  examples: |
+    - Is it possible to alter the word order to stress the importance of a certain phrase?
+    
+- intent: intent_165
+  examples: |
+    - Is Vietnamese the mother tongue of the Vietnamese people?
+    
+- intent: intent_166
+  examples: |
+    - Is Vietnamese the official administrative language of Vietnam?
+    
+- intent: intent_167
+  examples: |
+    - Have consonant clusters been lost?
+    
+- intent: intent_168
+  examples: |
+    - Is today, he widely regarded as one of history's greatest painters and an important contributor to the foundations of modern art?
+    
+- intent: intent_169
+  examples: |
+    - Does a violin have four strings?
+    
+- intent: intent_170
+  examples: |
+    - Does a violin have four strings?
+    
+- intent: intent_171
+  examples: |
+    - Is the violin supported by the left shoulder?
+    
+- intent: intent_172
+  examples: |
+    - Is the violin shaped like an hourglass?
+    
+- intent: intent_173
+  examples: |
+    - Is the violin a percussion instrument?
+    
+- intent: intent_174
+  examples: |
+    - Is the tuning G-D-A-E used for most violin music?
+    
+- intent: intent_175
+  examples: |
+    - Do the different species of zebras interbreed?
+    
+- intent: intent_176
+  examples: |
+    - Do zebras sleep standing up?
+    
+- intent: intent_177
+  examples: |
+    - Have plains zebras been crossed with mountain zebras?
+    
